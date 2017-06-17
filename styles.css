@@ -1,4 +1,63 @@
-body {
-    background-color: blue;
+body.home-body {
+  background-color: #defcf1
+}
 
+body.europe-body {
+  background-image: url("https://source.unsplash.com/kO1G3neRA2o/1600x900");
+  }
+
+h1, h2 {
+  font-family: Copperplate Gothic Light, sans-serif;
+  text-align: center
+
+}
+p {
+  font-family: Century Gothic, sans-serif;}
+
+ul {
+  font-family: Century Gothic, sans-serif;
+}
+
+i {
+    font-family: Century Gothic, sans-serif;
+}
+footer {
+    font-family: Century Gothic, sans-serif;
+}
+table {
+  font-family: Century Gothic, sans-serif;
+  margin: 50px;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: orange;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+section#geo-map {
+  font-family: Century Gothic, sans-serif;
+  position: static;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  h1, h2 {
+    font-size: 2em;
+  }
 }
